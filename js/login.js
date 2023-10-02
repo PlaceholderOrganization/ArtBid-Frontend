@@ -1,5 +1,5 @@
 import firebase from "./firebaseConfig";
-import { app, analytics } from "./firebaseConfig.js";
+import { onAuthStateChanged, signInWithEmailAndPassword } from "";
 
 const emailInput = document.getElementById("email");
 const passwordInput = document.getElementById("password");
