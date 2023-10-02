@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+#login-container {
+    width: 600px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-login-box,
+.right-login-box {
+    width: 45%;
+}
+
+.left-login-box h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="button"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #45a049;
+}
+
+.right-login-box .loginwith {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.social-signin {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.social-signin.facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.social-signin.twitter {
+    background-color: #1da1f2;
+    color: white;
+}
+
+.social-signin.google {
+    background-color: #db4437;
+    color: white;
+}
+
+.or {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 10px;
+    font-size: 18px;
+}
